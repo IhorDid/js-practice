@@ -1,0 +1,25 @@
+scroll-slider-track {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+
+  scroll-snap-type: x mandatory; /* прилипання фото до краю */
+  scrollbar-width: none; /* прибираєм скрол від браузера */
+}
+
+scroll-slider-track > * {
+  scroll-snap-align: start;
+}
+
+.no-smooth {
+  scroll-behavior: auto !important;
+}
+
+scroll-slider-track::-webkit-scrollbar {
+  display: none;
+}
+
+.no-snap {
+  scroll-snap-type: none !important;
+}
