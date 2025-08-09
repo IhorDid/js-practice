@@ -9,5 +9,5 @@ scroll-slider-track {
 }
 
 scroll-slider-track > * {
-  scroll-snap-align: center;
+  scroll-snap-align: start;
 }
