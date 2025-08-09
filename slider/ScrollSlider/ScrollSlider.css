@@ -11,3 +11,15 @@ scroll-slider-track {
 scroll-slider-track > * {
   scroll-snap-align: start;
 }
+
+.no-smooth {
+  scroll-behavior: auto !important;
+}
+
+scroll-slider-track::-webkit-scrollbar {
+  display: none;
+}
+
+.no-snap {
+  scroll-snap-type: none !important;
+}
