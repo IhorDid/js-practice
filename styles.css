@@ -1,0 +1,69 @@
+@import url(./slider/ScrollSlider/ScrollSlider.css);
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  color: aliceblue;
+  background-color: #2d2e32;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  color: currentColor;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  padding: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slide {
+  width: 260px;
+  border-radius: 10px;
+}
+
+.scroll-slider-track {
+  gap: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 32px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
